@@ -1,0 +1,33 @@
+Contains
+>>> products_contain_name = Product.objects.filter(name__contains='a')   
+>>> products_contain_name
+
+
+Exact
+>>> brand_exact_name = Brand.objects.filter(name__exact='New brand')   
+>>> brand_exact_name
+<QuerySet []>
+
+
+
+
+Startwith
+>>> products_start_with_name = Product.objects.filter(name__startswith='a')   
+>>> products_start_with_name
+<QuerySet [<Product: Aurora Blues>]>
+
+
+
+Endwith
+>>> products_end_with_name = Product.objects.filter(name__endswith='a')   
+>>> products_end_with_name
+
+
+
+order_by
+>>> ordered_by_price = Product.objects.order_by('price')   
+>>> ordered_by_price
+<QuerySet [<Product: Bliss Shorts>, <Product: Dress of Elysium>, <Product: Harmony Pants>, <Product: Aurora Blues>, <Product: Luna Blues>, <Product: Celeste Jacket>, <Product: Eden Skirt>, <Product: Serenity Maxi Dress>]>
+
+
+

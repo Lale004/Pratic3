@@ -1,4 +1,4 @@
-Contains---------------------- Salam lalə vahidədiii
+Contains---------------------- Salam lalə vahide olsun
 >>> products_contain_name = Product.objects.filter(name__contains='a')   
 >>> products_contain_name
 
@@ -29,5 +29,4 @@ order_by
 >>> ordered_by_price
 <QuerySet [<Product: Bliss Shorts>, <Product: Dress of Elysium>, <Product: Harmony Pants>, <Product: Aurora Blues>, <Product: Luna Blues>, <Product: Celeste Jacket>, <Product: Eden Skirt>, <Product: Serenity Maxi Dress>]>
 
-
-
+Əkil bəkil quş idi divara qonmuş idi
